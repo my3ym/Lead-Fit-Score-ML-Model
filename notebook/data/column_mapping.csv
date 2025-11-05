@@ -1,0 +1,55 @@
+column_name,description
+State/Province_Encoded,Label-encoded integer representation of the State/Province column
+Price_Range_Encoded,Label-encoded integer representation of the Price_Range (ordinal encoding)
+Instagram_Followers,Numeric follower count parsed from Ratings_Followers_By_Source (NaN if missing)
+Facebook_Followers,Numeric follower count parsed from Ratings_Followers_By_Source (NaN if missing)
+Google_Review_Score,Parsed Google review score (float) from Review_Score_by_Source
+DoorDash_Review_Score,Parsed DoorDash review score (float) from Review_Score_by_Source
+TripAdvisor_Review_Score,Parsed TripAdvisor review score (float) from Review_Score_by_Source
+OpenTable_Review_Score,Parsed OpenTable review score (float) from Review_Score_by_Source
+Facebook_Review_Score,Parsed Facebook review score (float) from Review_Score_by_Source
+Google_Total_Reviews,Parsed Google total reviews (numeric) from Total_Reviews_by_Source
+DoorDash_Total_Reviews,Parsed DoorDash total reviews (numeric) from Total_Reviews_by_Source
+TripAdvisor_Total_Reviews,Parsed TripAdvisor total reviews (numeric) from Total_Reviews_by_Source
+OpenTable_Total_Reviews,Parsed OpenTable total reviews (numeric) from Total_Reviews_by_Source
+Facebook_Total_Reviews,Parsed Facebook total reviews (numeric) from Total_Reviews_by_Source
+Tech_Preferred_Google,Flag (0/1) — Technologies_Vendors contains "Google"
+Tech_Preferred_Facebook,Flag (0/1) — Technologies_Vendors contains "Facebook"
+Tech_Preferred_Toast,Flag (0/1) — Technologies_Vendors contains "Toast"
+Tech_Preferred_Instagram,Flag (0/1) — Technologies_Vendors contains "Instagram"
+Tech_Preferred_DoorDash,Flag (0/1) — Technologies_Vendors contains "DoorDash"
+Tech_Preferred_OpenTable,Flag (0/1) — Technologies_Vendors contains "OpenTable"
+Tech_Preferred_Square,Flag (0/1) — Technologies_Vendors contains "Square"
+Tech_Preferred_Stripe,Flag (0/1) — Technologies_Vendors contains "Stripe"
+Tech_Preferred_SpotOn,Flag (0/1) — Technologies_Vendors contains "SpotOn"
+Tech_Preferred_Aloha,Flag (0/1) — Technologies_Vendors contains "Aloha"
+Tech_Preferred_Heartland,Flag (0/1) — Technologies_Vendors contains "Heartland"
+Tech_Preferred_Clover,Flag (0/1) — Technologies_Vendors contains "Clover"
+Tech_Preferred_Symphony,Flag (0/1) — Technologies_Vendors contains "Symphony"
+Tech_Preferred_Deliverect,Flag (0/1) — Technologies_Vendors contains "Deliverect"
+Tech_Competitor_ezCater,Flag (0/1) — Technologies_Vendors contains "ezCater"
+Tech_Competitor_Chownow,Flag (0/1) — Technologies_Vendors contains "Chownow"
+Tech_Competitor_Spothopper,Flag (0/1) — Technologies_Vendors contains "Spothopper"
+Tech_Competitor_Menufy,Flag (0/1) — Technologies_Vendors contains "Menufy"
+Tech_Competitor_Olo,Flag (0/1) — Technologies_Vendors contains "Olo"
+Tech_Competitor_Bentobox,Flag (0/1) — Technologies_Vendors contains "Bentobox"
+Tech_Competitor_MailChimp,Flag (0/1) — Technologies_Vendors contains "MailChimp"
+Tech_Competitor_HungerRush,Flag (0/1) — Technologies_Vendors contains "HungerRush"
+Tech_Competitor_Incentivio,Flag (0/1) — Technologies_Vendors contains "Incentivio"
+Tech_Competitor_Owner,Flag (0/1) — Technologies_Vendors contains "Owner"
+Tech_Competitor_Klaviyo,Flag (0/1) — Technologies_Vendors contains "Klaviyo"
+Tech_Competitor_Chowly,Flag (0/1) — Technologies_Vendors contains "Chowly"
+Tech_Overlapping_Uber_Eats,Flag (0/1) — Technologies_Vendors contains "Uber Eats"
+Tech_Overlapping_Grubhub,Flag (0/1) — Technologies_Vendors contains "Grubhub"
+Tech_Overlapping_Seamless,Flag (0/1) — Technologies_Vendors contains "Seamless"
+Tech_Overlapping_Postmates,Flag (0/1) — Technologies_Vendors contains "Postmates"
+Tech_Overlapping_Caviar,Flag (0/1) — Technologies_Vendors contains "Caviar"
+Tech_Overlapping_Paytronix,Flag (0/1) — Technologies_Vendors contains "Paytronix"
+Cusine_North_American,Flag (0/1) — Cuisines_(Continental) contains "North American"
+Cusine_European,Flag (0/1) — Cuisines_(Continental) contains "European"
+Cusine_Latin_American,Flag (0/1) — Cuisines_(Continental) contains "Latin American"
+Cusine_Asian,Flag (0/1) — Cuisines_(Continental) contains "Asian"
+Business_Type_Restaurant,Flag (0/1) — Business_Type contains "Restaurant"
+Business_Type_Drinking_Place,Flag (0/1) — Business_Type contains "Drinking Place"
+Business_Type_Quick_Service,Flag (0/1) — Business_Type contains "Quick Service"
+Business_Type_Cafe,Flag (0/1) — Business_Type contains "Cafe"
