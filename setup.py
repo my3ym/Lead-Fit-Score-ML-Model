@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='Lead Fit Score ML Model',
+name='lead_fit_score_ml_model',
 version='0.0.1',
 author='my3ym',
 author_email='mythri.krishnamrmurthy@gmail.com',
